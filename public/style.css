@@ -1103,7 +1103,7 @@ footer a:hover {
     background:
         radial-gradient(circle at center, rgba(255, 106, 0, 0.08), transparent 55%),
         #080808;
-    border-top: 1px solid rgba(255, 106, 0, 0.2);
+    border-top: 1px solid transparent;
 }
 
 .rules-section .section-header {
@@ -1191,7 +1191,7 @@ footer a:hover {
 .map-section {
     padding: 90px 8%;
     background: transparent;
-    border-top: 1px solid rgba(255, 106, 0, 0.15);
+    border-top: 1px solid transparent;
 }
 
 .map-section .section-header {
