@@ -1595,7 +1595,7 @@ footer a:hover {
 
     background: #0d0d0d;
 
-    border: 1px solid #292929;
+    border: 1px solid transparent;
 
     position: relative;
 }
@@ -1647,7 +1647,7 @@ footer a:hover {
 
     padding: 5px;
 
-    background: #080808;
+    background: transparent;
 
     overflow: hidden;
 }
@@ -1795,4 +1795,227 @@ footer a:hover {
 .rules-section,
 .community {
     background: transparent !important;
+}
+
+/* =========================
+   BOTRIK 1.0
+========================= */
+
+.botrik-section {
+    padding: 90px 8%;
+    border-top: 1px solid transparent;
+}
+
+.botrik-section .section-header {
+    max-width: 800px;
+    margin: 0 auto 45px;
+    text-align: center;
+}
+
+.botrik-section .section-tag {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #3da9ff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.botrik-section h2 {
+    margin: 0 0 15px;
+    color: #f2f2f2;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.botrik-section .section-header p {
+    margin: 0;
+    color: #999999;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* CONTENEUR PRINCIPAL */
+
+.botrik-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 50px;
+    align-items: center;
+
+    padding: 30px;
+
+    background: rgba(8, 8, 8, 0.85);
+    border: 1px solid transparent;
+    border-left: 3px solid transparent;
+
+    box-shadow:
+        0 0 35px rgba(30, 120, 255, 0.08);
+}
+
+
+/* IMAGE */
+
+.botrik-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botrik-image img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+    border: 1px solid rgba(40, 140, 255, 0.4);
+
+    box-shadow:
+        0 0 30px rgba(30, 120, 255, 0.18);
+}
+
+
+/* CONTENU */
+
+.botrik-content h3 {
+    margin: 0 0 18px;
+
+    color: #f2f2f2;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.botrik-content > p {
+    margin: 0 0 15px;
+
+    color: #999999;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* FONCTIONNALITÉS */
+
+.botrik-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+
+    margin-top: 30px;
+}
+
+.botrik-feature {
+    padding: 18px;
+
+    background: #101010;
+    border: 1px solid #242424;
+
+    transition: 0.3s ease;
+}
+
+.botrik-feature:hover {
+    border-color: transparent;
+
+    box-shadow:
+        0 0 20px rgba(30, 120, 255, 0.12);
+
+    transform: translateY(-3px);
+}
+
+.botrik-feature > span {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 24px;
+}
+
+.botrik-feature strong {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #f2f2f2;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.botrik-feature p {
+    margin: 0;
+
+    color: #777777;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* DÉVELOPPEUR */
+
+.botrik-developer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    margin-top: 30px;
+    padding-top: 20px;
+
+    border-top: 1px solid #292929;
+}
+
+.botrik-developer span {
+    color: #666666;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.botrik-developer strong {
+    color: #3da9ff;
+    font-size: 15px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+    .botrik-container {
+        grid-template-columns: 1fr;
+    }
+
+    .botrik-image img {
+        max-width: 500px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .botrik-section {
+        padding: 70px 20px;
+    }
+
+    .botrik-section h2 {
+        font-size: 32px;
+    }
+
+    .botrik-container {
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .botrik-content h3 {
+        font-size: 26px;
+    }
+
+    .botrik-features {
+        grid-template-columns: 1fr;
+    }
+
 }
