@@ -232,13 +232,13 @@ body {
 }
 
 .primary {
-    background: #b8b8b8;
+    background: #1a1919;
 
     color: white;
 }
 
 .primary:hover {
-    background: #ff6a00;
+    background: #686665;
 
     transform: translateY(-3px);
 }
@@ -321,7 +321,7 @@ body {
 
     padding: 35px;
 
-    background: #101010;
+    background: transparent;
     border: 1px solid #292929;
 
     overflow: hidden;
@@ -475,13 +475,13 @@ body {
 
     margin-bottom: 25px;
 
-    background: #292929;
+    background: transparent;
 }
 
 .server-feature {
     padding: 18px;
 
-    background: #0d0d0d;
+    background: transparent;
 }
 
 .server-feature span {
@@ -532,7 +532,7 @@ body {
 
     padding: 18px;
 
-    background: #0b0b0b;
+    background: transparent;
 
     border: 1px solid #252525;
 
@@ -1227,7 +1227,7 @@ footer a:hover {
     max-width: 650px;
     margin: 0 auto;
     padding: 8px;
-    background: #151515;
+    background: transparent;
     border: 1px solid rgba(255, 106, 0, 0.5);
     box-shadow: 0 0 35px rgba(255, 106, 0, 0.12);
     overflow: hidden;
@@ -1345,7 +1345,7 @@ footer a:hover {
 
     padding: 30px;
 
-    background: #0d0d0d;
+    background: transparent;
     border: 1px solid #292929;
 
     overflow: hidden;
@@ -1486,7 +1486,7 @@ footer a:hover {
 
     padding: 18px;
 
-    background: #080808;
+    background: transparent;
 
     border: 1px solid #252525;
 
@@ -1593,7 +1593,7 @@ footer a:hover {
 .server-map {
     padding: 20px;
 
-    background: #0d0d0d;
+    background: transparent;
 
     border: 1px solid transparent;
 
@@ -1699,7 +1699,7 @@ footer a:hover {
     margin-top: 12px;
     padding: 14px;
 
-    background: #080808;
+    background: transparent;
     border: 1px solid #292929;
 }
 
